@@ -28,7 +28,7 @@
 }
 
 .header__title {
-  margin-left: 64px;
+  margin: 0 0 0 64px;
   width: 730px;
   z-index: 3;
   font-size: 102px;
@@ -36,6 +36,7 @@
 }
 
 .header__subtitle {
+  margin: 0;
   position: absolute;
   left: 64px;
   bottom: 30px;
@@ -86,6 +87,7 @@
 }
 
 .two-columns__brief {
+  font-weight: normal;
   width: 175px;
   color: #2F80ED;
   line-height: 1.2;
@@ -172,6 +174,10 @@
 }
 
 .feynman {
+  background-image: url(../images/feynman.png);
+  background-repeat: no-repeat;
+  background-position: bottom 0 left 0;
+  background-size: 867px 637px;
   padding: 100px 0 0;
   min-height: 890px;
   flex-direction: column;
@@ -184,19 +190,17 @@
 .feynman__title {
   margin: 0 auto;
   line-height: 1.15;
+  text-align: center;
   font-size: 120px;
   font-weight: bold;
   width: 648px;
-  text-align: center;
   z-index: 1;
 }
 
 .feynman__subtitle {
+  margin: 70px auto 0;
   line-height: 51px;
   font-size: 36px;
-  font-weight: bold;
-  width: auto;
-  margin: 70px auto 0;
   z-index: 1;
 }
 
@@ -208,15 +212,6 @@
   right: 48px;
   text-decoration: none;
   color: #2F80ED;
-}
-
-.feynman__pic {
-  background-image: url(../images/feynman.png);
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  width: 867px;
-  height: 637px;
 }
 
 .kaufman {
@@ -240,10 +235,12 @@
   height: 877px;
 }
 
-.section-title__theme_dark {
+.section-title_theme_dark {
+  z-index: 1;
 }
 
-.section-subtitle__theme_dark {
+.section-subtitle_theme_dark {
+  z-index: 1;
 }
 
 .table_theme_dark{
@@ -270,15 +267,17 @@
 
 .footer__columns{
   display: flex;
-  position: relative;
   justify-content: space-between;
   width: 90%;
   margin: 60px auto 40px;
 }
 
-.footer__column_content_copyright {
+.footer__column {
   display: flex;
   flex-direction: column;
+}
+
+.footer__column_content_copyright {
   justify-content: space-between;
   flex-basis: 711px;
 }
@@ -291,16 +290,13 @@
 }
 
 .footer__column_content_info {
-  display: flex;
-  flex-direction: column;
 }
 
 .footer__column_content_social {
-  display: flex;
-  flex-direction: column;
 }
 
 .footer__column-heading {
+  margin: 0;
   line-height: 30px;
   font-size: 18px;
 }
@@ -318,7 +314,7 @@
   color: #f2f2f2;
 }
 
-.footer__social_icon {
+.footer__social-icon {
   width: 16px;
   height: 16px;
   margin-right: 10px;
@@ -334,8 +330,4 @@
   width: 183px;
   height: 32px;
   z-index: 2;
-}
-
-.link_visited:visited {
-  color: #2F80ED;
 }
