@@ -1,11 +1,14 @@
-@import url(normalize.css);
+@import url(../vendor/normalize.css);
 /* ниже свойства body */
 @import url(../blocks/page/page.css);
-/* ниже keyframes страницы */
+/* ниже общие блоки */
+@import url(../blocks/link/link.css);
+@import url(../blocks/logo/logo.css);
 @import url(../blocks/rotation/rotation.css);
+@import url(../blocks/section-title/section-title.css);
+@import url(../blocks/section-subtitle/section-subtitle.css);
 /* ниже шапка сайта */
 @import url(../blocks/header/header.css);
-@import url(../blocks/logo/logo.css);
 @import url(../blocks/logo/_place/logo_place_header.css);
 @import url(../blocks/header/__title/header__title.css);
 @import url(../blocks/header/__subtitle/header__subtitle.css);
@@ -23,8 +26,6 @@
 @import url(../blocks/two-columns/__span-accent/two-columns__span-accent.css);
 /* ниже секция techniques */
 @import url(../blocks/techniques/techniques.css);
-@import url(../blocks/section-title/section-title.css);
-@import url(../blocks/section-subtitle/section-subtitle.css);
 @import url(../blocks/cards/cards.css);
 @import url(../blocks/cards/__item/cards__item.css);
 @import url(../blocks/cards/__image/cards__image.css);
@@ -69,6 +70,7 @@
 @import url(../blocks/table/__text/_theme/table__text_theme_dark.css);
 /* ниже секция resources */
 @import url(../blocks/resources/resources.css);
+@import url(../blocks/resources/__link/resources__link.css);
 @import url(../blocks/resources/__logo-zone/resources__logo-zone.css);
 @import url(../blocks/resources/__logo/resources__logo.css);
 /* ниже подвал страницы */
