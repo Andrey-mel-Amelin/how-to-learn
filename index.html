@@ -4,9 +4,35 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles/index.css">
+  <script src="scripts/index.js"></script>
   <title>Научиться учиться</title>
 </head>
 <body class="page">
+  <div class="form-place">
+  <form class="form">
+    <h2 class="form__title">Комментарий о странице.</h2>
+    <div class="form__main">
+      <label class="form__label" for="form-firstname">Имя:</label>
+      <input class="form__input" type="text" name="form-firstname" id="form-firstname" placeholder="Иван" required>
+      <label class="form__label" for="form-lastname">Фамилия:</label>
+      <input class="form__input" type="text" name="form-lastname" id="form-lastname" placeholder="Иванов" required>
+      <label class="form__label" for="form-email">E-mail:</label>
+      <input class="form__input" type="email" name="form-email" id="form-email" placeholder="e-mail@mail.ru" required>
+      <label class="form__label" for="form-comment">Комментарий:</label>
+      <textarea class="form__textarea" name="form-comment" id="form-comment" placeholder="Ваш текст..." required></textarea>
+    </div>
+    <div class="form__buttons">
+      <label for="form-reset">
+      <input class="form__reset" type="reset" id="form-reset">
+      <p class="form__reset-visible">Сбросить</p>
+      </label>
+      <label for="form-submit">
+      <input class="form__submit" type="submit" id="form-submit">
+      <p class="form__submit-visible">Отправить</p>
+      </label>
+    </div>
+  </form>
+  </div>
   <header class="header">
     <div class="logo logo_place_header"></div>
     <h1 class="header__title">Научиться учиться</h1>

@@ -1,0 +1,21 @@
+
+.form__textarea {
+  margin-top: 10px;
+  border: 0;
+  width: 100%;
+  min-height: 80px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border-bottom: 1px solid white;
+  background-color: transparent;
+  font-family: inherit;
+  color: white;
+}
+
+.form__textarea:focus {
+  outline: 1px solid white;
+  border-radius: 10px;
+  -webkit-transition: 2s;
+  -o-transition: 2s;
+  transition: 2s;
+}

@@ -1,0 +1,25 @@
+.form__reset + .form__reset-visible {
+  padding: 5px;
+  font-size: 20px;
+  background-color: white;
+  color: black;
+  border-radius: 5px;
+  margin: 0;
+}
+
+.form__reset:hover + .form__reset-visible {
+  -webkit-box-shadow: 0 0 8px white;
+  box-shadow: 0 0 8px white;
+  -webkit-transition: .3s;
+  -o-transition: .3s;
+  transition: .3s;
+}
+
+.form__reset:active + .form__reset-visible {
+  -webkit-transform: scale(0.95);
+  -ms-transform: scale(0.95);
+  transform: scale(0.95);
+  -webkit-transition: .3s;
+  -o-transition: .3s;
+  transition: .3s;
+}

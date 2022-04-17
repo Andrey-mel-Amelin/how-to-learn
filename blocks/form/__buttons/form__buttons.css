@@ -1,10 +1,13 @@
-.two-columns {
-  margin: 0;
+.form__buttons {
+  margin: 20px 0;
+  width: 60%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 80%;
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
   justify-content: space-between;
+  position: relative;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
 }

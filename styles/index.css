@@ -1,6 +1,19 @@
 @import url(../vendor/normalize.css);
 /* ниже свойства body */
 @import url(../blocks/page/page.css);
+/* ниже форма страницы */
+@import url(../blocks/form-place/form-place.css);
+@import url(../blocks/form/form.css);
+@import url(../blocks/form/__title/form__title.css);
+@import url(../blocks/form/__main/form__main.css);
+@import url(../blocks/form/__label/form__label.css);
+@import url(../blocks/form/__input/form__input.css);
+@import url(../blocks/form/__textarea/form__textarea.css);
+@import url(../blocks/form/__buttons/form__buttons.css);
+@import url(../blocks/form/__reset/form__reset.css);
+@import url(../blocks/form/__reset-visible/form__reset-visible.css);
+@import url(../blocks/form/__submit/form__submit.css);
+@import url(../blocks/form/__submit-visible/form__submit-visible.css);
 /* ниже общие блоки */
 @import url(../blocks/link/link.css);
 @import url(../blocks/logo/logo.css);
