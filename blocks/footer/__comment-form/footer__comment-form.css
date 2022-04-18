@@ -1,0 +1,20 @@
+.footer__comment-form {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: 2;
+  border: none;
+  padding: inherit;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+}
+
+.footer__comment-form:active {
+  -webkit-transform: scale(0.95);
+      -ms-transform: scale(0.95);
+          transform: scale(0.95);
+  -webkit-transition: .5s;
+  -o-transition: .5s;
+  transition: .5s;
+}

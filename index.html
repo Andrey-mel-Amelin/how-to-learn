@@ -4,12 +4,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles/index.css">
-  <script src="scripts/index.js"></script>
+  <script defer src="scripts/index.js"></script>
   <title>Научиться учиться</title>
 </head>
 <body class="page">
-  <div class="form-place">
+  <div class="form-place" id="form-place">
   <form class="form">
+    <button type="button" class="form__close" id="form-close">X</button>
     <h2 class="form__title">Комментарий о странице.</h2>
     <div class="form__main">
       <label class="form__label" for="form-firstname">Имя:</label>
@@ -23,12 +24,12 @@
     </div>
     <div class="form__buttons">
       <label for="form-reset">
-      <input class="form__reset" type="reset" id="form-reset">
-      <p class="form__reset-visible">Сбросить</p>
+      <input class="form__button" type="reset" id="form-reset">
+      <p class="form__button-visible">Сбросить</p>
       </label>
       <label for="form-submit">
-      <input class="form__submit" type="submit" id="form-submit">
-      <p class="form__submit-visible">Отправить</p>
+      <input class="form__button" type="submit" id="form-submit">
+      <p class="form__button-visible">Отправить</p>
       </label>
     </div>
   </form>
@@ -220,7 +221,7 @@
     <div class="footer__columns">
       <div class="footer__column footer__column_content_copyright">
         <div class="logo logo_place_footer"></div>
-        <p class="footer__author">&copy; 2022. Амелин Андрей</p>
+        <p class="footer__author">&copy; 2022. Амелин Андрей<button type="button" class="footer__comment-form" id="footer-comment-form">Оставить Комментарий</button></p>
       </div>
       <div class="footer__column footer__column_content_info">
         <h3 class="footer__column-heading">О Практикуме</h3>
