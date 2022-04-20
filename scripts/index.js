@@ -1,12 +1,16 @@
-const formButtonOpen = document.getElementById('footer-comment-form');
-const formPlace = document.getElementById('form-place');
+document.getElementById('footer__comment-form').onclick = function() {
+  document.getElementById('form-place').classList.add('form-place_condition_open');
+  document.getElementById('page').classList.add('page_overflow-hidden');
+};
 
-formButtonOpen.addEventListener('click', (e) => {
-  formPlace.classList.add('open');
-});
+document.querySelector('.form__close').onclick = function () {
+  document.getElementById('form-place').classList.remove('form-place_condition_open');
+  document.getElementById('page').classList.remove('page_overflow-hidden');
+};
 
-const formButtonClose = document.getElementById('form-close');
+document.querySelector('.form-place__substrate').onclick = function () {
+  document.getElementById('form-place').classList.remove('form-place_condition_open');
+  document.getElementById('page').classList.remove('page_overflow-hidden');
+};
 
-formButtonClose.addEventListener('click', (e) => {
-  formPlace.classList.remove('open');
-});
+

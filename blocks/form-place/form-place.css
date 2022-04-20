@@ -17,9 +17,6 @@
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.8);
-}
-
-#form-place {
   visibility: hidden;
   opacity: 0;
   -webkit-transition: 0.5s;
@@ -27,10 +24,3 @@
   transition: 0.5s;
 }
 
-#form-place.open {
-  visibility: visible;
-  opacity: 1;
-  -webkit-transition: 0.5s;
-  -o-transition: 0.5s;
-  transition: 0.5s;
-}

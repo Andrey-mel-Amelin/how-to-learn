@@ -1,8 +1,11 @@
 @import url(../vendor/normalize.css);
 /* ниже свойства body */
 @import url(../blocks/page/page.css);
+@import url(../blocks/page/_overflow-hidden/page_overflow-hidden.css);
 /* ниже форма страницы */
 @import url(../blocks/form-place/form-place.css);
+@import url(../blocks/form-place/__substrate/form-place__substrate.css);
+@import url(../blocks/form-place/_сondition/form-place_condition_open.css);
 @import url(../blocks/form/form.css);
 @import url(../blocks/form/__close/form__close.css);
 @import url(../blocks/form/__title/form__title.css);
@@ -17,6 +20,7 @@
 @import url(../blocks/link/link.css);
 @import url(../blocks/logo/logo.css);
 @import url(../blocks/rotation/rotation.css);
+@import url(../blocks/flashing/flashing.css);
 @import url(../blocks/section-title/section-title.css);
 @import url(../blocks/section-subtitle/section-subtitle.css);
 /* ниже шапка сайта */
