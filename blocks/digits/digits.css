@@ -12,3 +12,15 @@
       -ms-flex-align: center;
           align-items: center;
 }
+
+@media screen and (max-width: 1023px) {
+  .digits {
+    padding: 60px 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .digits {
+    padding: 30px 0;
+  }
+}

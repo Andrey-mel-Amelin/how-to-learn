@@ -13,3 +13,22 @@
   align-items: center;
   position: relative;
 }
+
+@media screen and (max-width: 1023px) {
+  .header {
+    min-height: 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header {
+    display: grid;
+    gap: 20px;
+    justify-items: center;
+    grid-template: repeat(3, min-content)/1fr;
+    grid-template-areas:
+    "logo"
+    "title"
+    "subtitle";
+  }
+}

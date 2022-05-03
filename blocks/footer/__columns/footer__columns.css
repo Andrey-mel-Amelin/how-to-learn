@@ -8,3 +8,22 @@
   width: 90%;
   margin: 60px auto 40px;
 }
+
+@media screen and (max-width: 1023px) {
+  .footer__columns {
+    margin: 20px auto 0;
+    width: 90%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer__columns {
+    display: grid;
+    gap: 20px 20px;
+    grid-template: repeat(2, min-content)/repeat(2, 1fr);
+    grid-template-areas:
+    "copyright copyright"
+    "social info";
+    justify-items: center;
+  }
+}

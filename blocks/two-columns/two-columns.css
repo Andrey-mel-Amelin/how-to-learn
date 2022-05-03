@@ -8,3 +8,15 @@
   -ms-flex-pack: justify;
   justify-content: space-between;
 }
+
+@media screen and (max-width: 1023px) {
+  .two-columns {
+    width: calc(100% - 2 * 20px);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .two-columns {
+    flex-direction: column;
+  }
+}

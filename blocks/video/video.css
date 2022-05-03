@@ -13,3 +13,19 @@
   align-items: center;
   height: 440px;
 }
+
+@media screen and (max-width: 1279px) {
+  .video {
+    padding: 60px 0 0;
+    height: min-content;
+    transform: translateY(30px);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .video {
+    padding: 60px 0 0;
+    height: min-content;
+    transform: translateY(10px);
+  }
+}

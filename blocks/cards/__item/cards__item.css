@@ -1,8 +1,6 @@
 .cards__item {
   margin: 0;
   list-style-type: none;
-  width: -webkit-min-content;
-  width: -moz-min-content;
   width: min-content;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -11,9 +9,11 @@
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
+  align-items: center;
 }
 
-.cards__item:nth-child(3n+2) {
-  padding: 0 100px;
+@media screen and (max-width: 767px) {
+  .cards__item {
+    margin: 0;
+  }
 }
-

@@ -11,3 +11,11 @@
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
+
+@media screen and (max-width: 1023px) {
+  .form__buttons {
+    width: min-content;
+    flex-direction: column;
+    gap: 20px
+  }
+}

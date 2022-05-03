@@ -7,3 +7,27 @@
   background-color: #2F80ED;
   z-index: 1;
 }
+
+@media screen and (max-width: 1279px) {
+  .header__square-pic {
+    height: 400px;
+    width: 400px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .header__square-pic {
+    height: 350px;
+    width: 350px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header__square-pic {
+    width: 200px;
+    height: 200px;
+    top: auto;
+    bottom: 60px;
+    right: 30px;
+  }
+}

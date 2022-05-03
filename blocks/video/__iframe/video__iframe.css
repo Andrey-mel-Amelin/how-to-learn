@@ -5,6 +5,16 @@
   height: 316px;
 }
 
-.video__iframe:nth-child(2) {
-  margin: 0 0 0 20px;
+@media screen and (max-width: 1279px) {
+  .video__iframe {
+    margin: 0 auto;
+    width: 490px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .video__iframe{
+    width: 100%;
+    height: 200px;
+  }
 }

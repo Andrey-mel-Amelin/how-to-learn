@@ -7,3 +7,18 @@
   text-decoration: none;
   color: #2F80ED;
 }
+
+@media screen and (max-width: 1023px) {
+  .feynman__link {
+    top: 25%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .feynman__link {
+    font-size: 20px;
+    line-height: 1;
+    right: 20px;
+    top: 30%;
+  }
+}

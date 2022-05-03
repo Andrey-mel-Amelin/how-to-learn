@@ -5,3 +5,12 @@
   margin: 0;
   position: relative;
 }
+
+@media screen and (max-width: 767px)  {
+  .footer__author {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    align-self: center;
+  }
+}

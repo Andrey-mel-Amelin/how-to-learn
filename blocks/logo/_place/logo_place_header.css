@@ -4,3 +4,17 @@
   top: 30px;
   left: 64px;
 }
+
+@media screen and (max-width: 1023px) {
+  .logo_place_header {
+    left: 20px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .logo_place_header {
+    margin-top: 20px;
+    position: static;
+    grid-area: logo;
+  }
+}

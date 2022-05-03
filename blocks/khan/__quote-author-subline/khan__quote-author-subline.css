@@ -4,3 +4,9 @@
   font-size: 24px;
   font-weight: normal;
 }
+
+@media screen and (max-width: 767px) {
+  .khan__quote-author-subline {
+    font-size: 16px;
+  }
+}

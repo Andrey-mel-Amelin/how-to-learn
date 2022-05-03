@@ -1,6 +1,18 @@
 .two-columns__main-text {
   margin-left: auto;
-  min-width: 784px;
   right: 0;
   width: 80%;
+}
+
+@media screen and (max-width: 1279px) {
+  .two-columns__main-text {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .two-columns__main-text {
+    margin: 0;
+    width: 100%;
+  }
 }

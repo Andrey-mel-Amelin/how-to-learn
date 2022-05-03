@@ -9,3 +9,24 @@
   line-height: 25px;
   font-weight: normal;
 }
+
+@media screen and (max-width: 1279px) {
+  .header__subtitle {
+    font-size: 16px;
+    line-height: 20px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .header__subtitle {
+    left: 20px;
+    width: 270px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .header__subtitle {
+    position: static;
+    grid-area: subtitle;
+  }
+}

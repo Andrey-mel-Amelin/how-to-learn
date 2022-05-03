@@ -7,3 +7,11 @@
   -o-object-position: 0 0;
   object-position: 0 0;
 }
+
+@media screen and (max-width: 767px) {
+  .khan__book-pic {
+    margin: 0;
+    width: 100%;
+    min-height: 400px;
+  }
+}

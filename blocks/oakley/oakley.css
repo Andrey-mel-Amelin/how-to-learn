@@ -9,3 +9,15 @@
   -ms-flex-pack: center;
   justify-content: center;
 }
+
+@media screen and (max-width: 1023px) {
+  .oakley {
+    padding-top: 100px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .oakley {
+    padding-top: 30px;
+  }
+}

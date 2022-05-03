@@ -8,3 +8,15 @@
   -ms-flex-pack: center;
   justify-content: center;
 }
+
+@media screen and (max-width: 1023px) {
+  .description {
+    padding-top: 60px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .description {
+    padding-top: 30px;
+  }
+}
