@@ -5,11 +5,24 @@
   display: -ms-flexbox;
   display: flex;
   gap: 20px;
+  height: min-content;
 }
 
 @media screen and (max-width: 1279px) {
   .video__iframes {
     flex-direction: column;
+    width: calc(100% - 2 * 100px);
   }
 }
 
+@media screen and (max-width: 1023px) {
+  .video__iframes {
+    width: calc(100% - 2 * 50px);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .video__iframes {
+    width: calc(100% - 2 * 20px);
+  }
+}

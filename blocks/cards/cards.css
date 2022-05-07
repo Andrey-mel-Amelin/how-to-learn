@@ -3,13 +3,13 @@
   padding: 0;
   width: 80%;
   display: grid;
-  grid-template: repeat(2, 1fr)/repeat(3, minmax(min-content, max-content));
+  grid-template: repeat(2, 1fr) / repeat(3, minmax(min-content, max-content));
   justify-content: space-between;
 }
 
 @media screen and (max-width: 767px) {
   .cards {
-    grid-template: repeat(5, 1fr)/1fr;
+    grid-template: repeat(5, 1fr) / 1fr;
     justify-items: center;
   }
 }
